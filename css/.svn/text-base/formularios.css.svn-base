@@ -1,0 +1,172 @@
+input,
+textarea {
+  border: 1px solid #666666;
+  padding: 5px;
+  width: 220px;
+}
+textarea {
+  height: 140px;
+}
+
+
+
+fieldset div.controls {
+  margin: 25px 0 0;
+  padding: 0;
+}
+
+fieldset div.campo {
+  margin: 0 0 10px 160px;
+}
+fieldset div.campo label.etiqueta {
+color: #666;
+  float: left;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 7px 0 0 -160px;
+  width: 140px;
+  text-align: right;
+  text-shadow:0 1px 0 #ededed;
+}
+
+
+fieldset div input,
+fieldset div textarea,
+fieldset div select {
+  display: block;
+  line-height: 1;
+}
+
+
+fieldset div input,
+fieldset div textarea,
+fieldset div select {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #636d77 #a3b4c4 #c7d2de; 
+  color: #333;
+  display: block;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
+  margin: 0;
+}
+fieldset div input:focus,
+fieldset div textarea:focus,
+fieldset div select:focus {
+  border-color: #636d77;
+}
+fieldset div input {
+  padding: 6px 5px;
+  width: 288px;
+}
+fieldset div select {
+  padding: 6px 5px;
+  width: 300px;
+}        
+fieldset div textarea {
+  height: 89px;
+  padding: 6px 5px;
+  width: 288px;
+}
+fieldset div input[type=file] {
+  background: none;
+  border: inherit;
+  padding: 0;
+}  
+
+
+fieldset {
+  border: none;
+  position: relative;
+  /*padding: 70px 0 0;*/
+}
+fieldset legend span {
+  border-bottom: 1px solid #fff;
+  display: block;
+  font-size: 2.25em;
+  line-height: 1.1;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  position: absolute;
+  width: 560px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #26808c;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+p {
+  /*margin: 1em 0;*/
+  padding: 0;
+  color:#666666;
+}
+strong {
+  font-weight: bold;
+}
+
+h1 {
+  border-bottom: 1px solid #dedede;
+/*  background: url(images/bg-ccc.gif) 0 100% repeat-x;*/
+  color: #9dc760;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0 0 0.7em;
+  text-shadow:0 1px 0 #ededed;
+  /*padding: 0 0 28px;*/
+}
+
+
+input,
+textarea,
+select {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#container {
+/*  background: url(images/bg-form-btm.png) no-repeat 100% 100%;*/
+  padding-bottom: 18px;
+  width: 750px;
+  position: relative;
+}
+#container-inner {
+/*  background: #fff url(images/bg-form.gif) repeat-x;*/
+  border: 1px solid #ababab;
+   padding: 20px;
+  /*background-color:#C1AB0A;*/
+  background-color:#dcdcdc;
+}
+
+
+input.submit {
+  cursor: pointer;
+  float: right;
+/*  background: url(images/ir-submit-create-profile.png) no-repeat 0 0; */
+  width: 136px;
+  height: 32px;
+  margin: 0;
+  margin-left:10px;
+  overflow: hidden;
+  text-shadow:0 1px 0 #ededed;
+  font-weight: bold;
+  border:1px solid #ededed;
+/*  padding: 32px 0 0 136px; */ /*para usar sprites */
+}
+
+
+span.mensaje {
+    width:200px;
+    text-align:left;
+    margin-top:-30px;
+    float:right;
+    margin-right:40px;
+}
